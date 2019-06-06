@@ -156,13 +156,13 @@
 
 **27. [Write to cell or not?, Erase a cell or not?, How much to write to cell?, How much to reveal cell?]**
 
-&#10230; [Ghi vào cell hay không?, Xoá cell hay không?, Ghi bao nhiêu vào cell?, ]
+&#10230; [Ghi vào cell hay không?, Xoá cell hay không?, Ghi bao nhiêu vào cell?, Cần tiết lộ bao nhiêu về cell?]
 
 <br>
 
 **28. LSTM ― A long short-term memory (LSTM) network is a type of RNN model that avoids the vanishing gradient problem by adding 'forget' gates.**
 
-&#10230; LSTM - Bộ nh
+&#10230; LSTM - Mạng bộ nhớ ngắn dài (LSTM) là 1 loại RNN model tránh vấn đề vanishing gradient (độ dốc biến mất đột ngột) bằng cách thêm vào cổng 'quên' ('forget' gates).
 
 <br>
 
@@ -174,103 +174,103 @@
 
 **30. The goal of reinforcement learning is for an agent to learn how to evolve in an environment.**
 
-&#10230;
+&#10230; Mục tiêu của reinforcement learning đó là cho tác tử (agent) học cách làm sao để phát triển trong một môi trường
 
 <br>
 
 **31. Definitions**
 
-&#10230;
+&#10230; Định nghĩa
 
 <br>
 
 **32. Markov decision processes ― A Markov decision process (MDP) is a 5-tuple (S,A,{Psa},γ,R) where:**
 
-&#10230;
+&#10230; Tiến trình quyết định Markov (Markov decision processes) - Tiến trình quyết định Markov (MDP) là một dạng 5-tuple (S,A,{Psa},γ,R) mà ở đó:
 
 <br>
 
 **33. S is the set of states**
 
-&#10230;
+&#10230; S là tập hợp các trạng thái (states)
 
 <br>
 
 **34. A is the set of actions**
 
-&#10230;
+&#10230; A là tập hợp các hành động (actions)
 
 <br>
 
 **35. {Psa} are the state transition probabilities for s∈S and a∈A**
 
-&#10230;
+&#10230; {Psa} là xác suất chuyển tiếp trạng thái cho s∈S và a∈A
 
 <br>
 
 **36. γ∈[0,1[ is the discount factor**
 
-&#10230;
+&#10230; γ∈[0,1[ là discount factor
 
 <br>
 
 **37. R:S×A⟶R or R:S⟶R is the reward function that the algorithm wants to maximize**
 
-&#10230;
+&#10230; R:S×A⟶R hoặc R:S⟶R là reward function (hàm reward) mà giải thuật muốn tối đa hoá.
 
 <br>
 
 **38. Policy ― A policy π is a function π:S⟶A that maps states to actions.**
 
-&#10230;
+&#10230; Policy - Policy π là 1 hàm π:S⟶A có nhiệm vụ ánh xạ states tới actions
 
 <br>
 
 **39. Remark: we say that we execute a given policy π if given a state s we take the action a=π(s).**
 
-&#10230;
+&#10230; Chú ý: Ta quy ước rằng ta thực thi policy π cho trước nếu cho trước state s ta có action a=π(s)
 
 <br>
 
 **40. Value function ― For a given policy π and a given state s, we define the value function Vπ as follows:**
 
-&#10230;
+&#10230; Hàm giá trị (Value function) - Với policy cho trước π và state s, ta định nghĩa value function Vπ như sau:
 
 <br>
 
 **41. Bellman equation ― The optimal Bellman equations characterizes the value function Vπ∗ of the optimal policy π∗:**
 
-&#10230;
+&#10230; Phương trình Bellman - Phương trình tối ưu Bellman đặc trưng hoá value function Vπ∗ của policy tối ưu (optimal policy) π∗:
 
 <br>
 
 **42. Remark: we note that the optimal policy π∗ for a given state s is such that:**
 
-&#10230;
+&#10230; Chú ý: ta quy ước optimal policy π∗ đối với state s cho trước như sau:
 
 <br>
 
 **43. Value iteration algorithm ― The value iteration algorithm is in two steps:**
 
-&#10230;
+&#10230; Giải thuật duyệt giá trị (Value iteration) - Giải thuật duyệt giá trị có 2 loại:
 
 <br>
 
 **44. 1) We initialize the value:**
 
-&#10230;
+&#10230; 1) Ta khởi tạo gái trị (value):
 
 <br>
 
 **45. 2) We iterate the value based on the values before:**
 
-&#10230;
+&#10230; 2) Ta duyệt qua giá trị dựa theo giá trị phía trước:
 
 <br>
 
 **46. Maximum likelihood estimate ― The maximum likelihood estimates for the state transition probabilities are as follows:**
 
-&#10230;
+&#10230; 
 
 <br>
 
